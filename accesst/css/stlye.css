@@ -1,0 +1,143 @@
+/* this is the body  */
+body{
+    background-color:cadetblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* this is container section start */
+.container{
+    width:1200px;
+    background-color: aqua;
+    margin:0px auto;
+    top:0px;
+}
+/* this is the head start */
+.had-text{
+    position: relative;
+}
+.titel-hd{
+    position: absolute;
+    top:0px;
+    margin-left: 50px ;
+    margin-top:50px;
+    font-weight: bold;
+}
+.img-fluid{
+   width:1200px;
+   height:400px;
+}
+.nav-had {
+    position: absolute;
+    top:20px;
+    right:50px;
+}
+.nav-had .nav-li{
+    display: inline-block;
+     list-style:none;
+    
+}
+.nav-had .nav-li .nav-link{
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+    padding:20px;
+    border-radius:10px;
+}
+.nav-had .nav-li:first-child{
+   background-color:rgb(218, 178, 116);
+   padding:20px;
+   border-radius:10px;
+}
+.nav-had .nav-li .nav-link:hover{
+    background-color:rgb(218, 178, 116);
+    transition:all 1s;
+    
+}
+/* <!-- this is card section --> */
+.box-card{
+    display: flex;
+}
+.card{
+    width:30%;
+    text-align: center;
+    background-color: aquamarine;
+    margin:50px 20px;
+    padding:10px;
+    
+
+}
+/* this is the table section */
+.contan{
+    text-align: center;
+    
+}
+.table-text{
+    text-align: center;
+    padding-top:100px;
+}
+.table-lit{
+   padding-top: 100px;
+   margin-left:150px;
+   padding-bottom:200px;
+  
+}
+table ,tr,th ,td{
+    border:1px solid;
+    border-collapse: collapse;
+    padding:10px;
+    width:900px;
+    text-transform: capitalize;
+    
+}
+th{
+    background-color: aquamarine;
+}
+td{
+    background-color: beige;
+}
+/* this isthe box-showdo */
+.box-s {
+    text-align: center;
+    margin-top: 0px;
+    padding:20px;
+}
+.box-showd{
+    display: flex;
+}
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.shadow:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     
+}
+/* this is the bannarer */
+.bannarer{
+    background-image:url("../img/photo\ \(6\).jpg");
+    background-size:400px;
+    height:1500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding:20px;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+.btu{
+    
+    padding: 30px 40px;
+    margin-top:100px;
+    border-radius:10px;
+    border: none;
+}
+.btu:hover{
+   background-color: cornflowerblue;
+   transition: all 1s;
+}
+.card-2{
+    display: flex;
+    color: black;
+}
+.img-c{
+    width:330px;
+    height:400px;
+}
